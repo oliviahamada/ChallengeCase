@@ -152,9 +152,7 @@ de outra forma teria um significado especial na sintaxe de formatação da Markdow
  * Os vídeos do Youtube requerem algum trabalho adicional. 
   ```
   Eles não podem ser adicionados diretamente, mas você pode adicionar uma imagem com um link para o vídeo como este:
-  <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
-  " target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
-  alt="Texto ALT da imagem aqui" width="240" height="180" border="10" /></a>
+  <a href="#" target="_blank">aqui</a>
   ```
  * Markdown suporta Emoji :laughing: :laughing: :kissing_heart: :innocent: :green_heart: ( obter alguns emojis [aqui](http://www.emoji-cheat-sheet.com/) )
  * Você pode usar a tag \<br/> para forçar uma quebra de linha. 
