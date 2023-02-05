@@ -40,7 +40,7 @@ Para a solução, foram utilizados os seguintes parâmetros:
  * O valor de entrada a ser inserida na solução **deve** ser o caminho raiz do arquivo. Ex.: Se o arquivo a ser consumido é o `C:\Documents\Json\entrada.json`, você deverá inserir apenas o caminho `C:\Documents\Json`, a solução irá consumir todos os arquivos presentes neste diretório.
  * Assume-se que todos os arquivos seguirão o formato de input correto (você pode encontrar um [exemplo](https://github.com/oliviahamada/ChallengeCase/blob/master/ChallengeCase/Helper/json/exemple.json) dentro da pasta `/Helper/json`).
 </br>
- *Recomendo utilizar apenas 3 arquivos para consumo.*
+> **Warning**: *Recomendo utilizar apenas 3 arquivos para consumo.*
 
 <div id='saida'/>
 
