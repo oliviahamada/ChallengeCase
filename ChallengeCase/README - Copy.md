@@ -18,7 +18,8 @@ Esta solução visa calcular o imposto a ser pago sobre lucros ou prejuízos de ope
 
 *******
 
-<div id='premissas'/>
+<div id='premissas'/> 
+
 ## Premissas  
  * **Arquivos de entrada**:
 	- O arquivo de entrada deve estar no formato `.json`.
@@ -32,7 +33,8 @@ Esta solução visa calcular o imposto a ser pago sobre lucros ou prejuízos de ope
 
 
 <div id='parametros'/>
-## Parâmetros
+
+## Parâmetros 
 
 Para a solução, foram utilizados os seguintes parâmetros:
  * **BUY** : Indica que a operação é de **compra**. Valor default `buy`.
@@ -44,7 +46,8 @@ Para a solução, foram utilizados os seguintes parâmetros:
  **Warning**: Alterar esses valores pode implicar na execução do cálculo. 
 
 
-<div id='entrada'/>  
+<div id='entrada'/>
+
 ## Dados de entrada
 Porque é :
  * **FÁCIL** : A sintaxe é tão fácil que você pode aprender em um minuto ou dois, em seguida, escreva sem perceber nada estranho ou nerd.
