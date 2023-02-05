@@ -61,4 +61,4 @@ A solução foi desenvolvida em .net6.0 usando C#. Deve-se executar o projeto Chal
 ## Sobre Mim
 
 
-###### Nome: *
+###### Nome: Sobre mim
