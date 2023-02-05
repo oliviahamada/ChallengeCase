@@ -58,25 +58,26 @@ Esta solução visa calcular o imposto a ser pago sobre lucros ou prejuízos de ope
 
 
 *******
->
-> **Note**:
-> 
-> **Warning**: Tabelas de conteúdo 
- 1. [O que é Markdown?](#whatismarkdown)
+
+## Introduction 
+> **Warning**: Leia com atenção 
+
+
+ 1. [Premissas?](#premissas)
  2. [Porque usar Markdown?](#why)
  3. [Ferramentas para Markdown](#tools)
  4. [Sintaxe de Markdown](#syntax)
 
 *******
 
-<div id='whatismarkdown'/>  
+<div id='premissas'/>  
 
-## O que é Markdown ?  
-De acordo com a Wikipedia :  
+## Premissas  
+ * **Arquivos de entrada**: 
+	- O arquivo de entrada deve estar no formato .json
+	- O valor de entrada a ser inserida na solução **deve** ser o caminho raiz do arquivo. Ex.: Se o arquivo a ser consumido é o `C:\Documents\Json\entrada.json`, você deverá inserir apenas o caminho `C:\Documents\Json`, a solução irá consumir todos os arquivos presentes neste diretório.
+	- Assume-se que todos os arquivos seguirão o formato de input correto (você pode encontrar um exemplo `exemplo.json` dentro da pasta Helper)
 
-  >*Markdown é uma linguagem de marcação leve com sintaxe de formatação de texto simples projetada para que ela possa ser convertida em HTML e muitos outros formatos usando uma ferramenta com o mesmo nome. Markdown é usado frequentemente para formatar arquivos readme, para escrever mensagens em fóruns de discussão on-line e para criar texto rico usando um editor de texto simples.*   
-
-`SIMPLESMENTE: É APENAS OUTRO TIPO DE ARQUIVO DE TEXTO, COMO .txt .doc .... (agora é .md :risos:) E COM UMA SINTAXE ESPECIAL.`  
 <div id='why'/>  
 
 *Não existe um padrão de Markdown claramente definido. Isso levou à fragmentação, pois fornecedores diferentes escrevem suas próprias variantes do idioma para corrigir falhas ou adicionar recursos faltantes. Uma lista de versões de Markdown está disponível [aqui](https://github.com/jgm/CommonMark/wiki/Markdown-Flavors).*
@@ -105,44 +106,8 @@ Conforme mencionado acima, qualquer editor pode ser usado para editar o markdown
  * **[*MarkdownPad*](http://markdownpad.com/)** : O Melhor para Windows.
  * **[*Remarkable*](https://remarkableapp.github.io/)** : O Melhor para Linux. 
  * **[*GITBOOK*](http://www.gitbook.com/)** : O GitBook é uma ferramenta de publicação moderna. Facilitando a escrita e a colaboração. Ambos suportam a Markdown e têm uma estreita relação com o amado Github.
-<div id='syntax'/>  
-
-
-## Sintaxe do Markdown  
-Toda a sintaxe pode ser encontrada [aqui](https://daringfireball.net/projects/markdown/syntax) . Seria necessário muito esforço para descrever a sintaxe no texto (eles serão formatados), então, considere esta tabela abaixo para toda a sintaxe básica.  
-
-| Formato        | Sintaxe      | Exemplo |
-| ------|-----|-----|
-| Itálico  	| \*Text\* 	| *Isto está em itálico* 	|
-| Negrito  	| \*\*Bold\*\* 	| **Isto está em negrito** 	|
-| Links Inline 	| \[texto\](url aqui) 	| Um [link](http://www.github.com) 	|
-| Imagens 	| \![Legenda\](url da img) 	| Uma imagem ![image](http://i.imgur.com/hRLuez2.png) 	|
-| Link + Imagens 	| \[\![Legenda\](url da img)\](url para a pagina)\] 	| Me clique [![me](http://i.imgur.com/hRLuez2.png)](https://www.youtube.com) 	|
-| Quebras de Linha 	| Double space + enter 	|  	|
-| Listas Não Ordenadas 	| \* Item1     \*Item 2 	| <ul><li>item1</li><li>item2</li> 	|
-| Listas Ordenadas  	| 1. Item a    2. Item b 	| <ol><li>itema</li><li>itemb</li>  	|
-| Listas Mistas 	| 1. Item 1      * item 1a 	|  <ol><li>item1</li></ol><ul><li> item1a</li></ul>	|
-| Citação 	| \> Texto citado 	|  <blockquote>Stay Hungry Stay Foolish</blockquote> 	|
-| Preformatted 	| Comece cada linha com, dois espaços ou mais, faça o look do texto, e x a t a m e n t e, como, você, tipo i, s, t, o. 	|   Comece cada linha com, dois espaços ou mais, faça o look do texto, e x a t a m e n t e, como, você, tipo i, s, t, o. 	|
-| Código 	| \`Insira o código\` 	| `cout<<"Hello world";` 	|
-| Bloco de Código/ Destaque de Sintaxe 	| \`\`\`Insira o código\`\`\` 	|  <a href="#section1">Ei, leia a nota abaixo desta tabela. 	|
-| Títulos 	| \#, \##, \###, \####, \#####, \###### (from h1 to h6) 	|  <h3>Isso é um título h3</h3>	|
-| Riscado 	| \~~Insira o texto aqui\~~ 	| ~~Eu estou morto~~ 	|
-| Tabelas 	| \| Tables   \|      Are      \|  Cool \| \|\----------\|\:\-------------\:\|------\:\| \| col 1 is\|  left-aligned \| $1600 \| | ![](http://i.imgur.com/EItt7mh.png) |
-|Notas de Rodapé| Notas de rodapé[\^1\] <br> [\^1\]: Refêrencia | Aqui está uma simples nota de rodapé[^1]. Com um texto adicional. | 
-[^1]: Minha Referencia favorita.
  
-<br></br>
- <br></br>
- <p id="section1">Nota: **Nota de rodapé** atualmente não renderiza direito na tabela, mas se parece com isso: </p>  
- 
- ![](http://i.imgur.com/pmeBr28.png)  
-   <br></br>
-   O mesmo vale para **Bloco de código/destaque de sintaxe**. Sua aparência é igual a da imagem abaixo:
-  
-![](http://i.imgur.com/z8KrxAz.png).    
 
-Estas características dependem de cada versão de markdown.
 
 ###### Author: *Vo Tran Thanh Luong*. Also, I would like to thank all the contributors/translators for your work making this greater.
  
