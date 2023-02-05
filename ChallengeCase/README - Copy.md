@@ -31,7 +31,7 @@ Para a solução, foram utilizados os seguintes parâmetros:
  * **IMPOSTO_PERCENT** : Indica o percentual do imposto a ser pago. Valor default `20`.
 
 > **Warning**: *Alterar esses valores pode implicar na execução do cálculo.*
-
+</br>
 
 <div id='entrada'/>
 
@@ -41,6 +41,7 @@ Para a solução, foram utilizados os seguintes parâmetros:
  * Assume-se que todos os arquivos seguirão o formato de input correto (você pode encontrar um [exemplo](https://github.com/oliviahamada/ChallengeCase/blob/master/ChallengeCase/Helper/json/exemple.json) dentro da pasta `/Helper/json`).
 
 > **Warning**: *Recomendo utilizar apenas 3 arquivos para consumo.*
+</br>
 
 <div id='saida'/>
 
