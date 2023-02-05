@@ -1,20 +1,64 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# ChallengeCase 
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+Esta é uma solução chamada ChallengeCase.  
+Esta solução visa calcular o imposto a ser pago sobre lucros ou prejuízos de operações no mercado financeiro de ações.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+*******
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+## Introduction 
+> **Warning**: Leia com atenção 
+
+
+ 1. [Parâmetros](#parametros)
+ 2. [Dados de Entrada](#entrada)
+ 3. [Dados de Saída](#saida)
+ 4. [Build e Testes](#build_test)
+ 5. [Sobre Mim](#about_me)
+
+*******
+
+<div id='parametros'/>
+
+## Parâmetros 
+
+Para a solução, foram utilizados os seguintes parâmetros:
+</br>
+ * **BUY** : Indica que a operação é de **compra**. Valor default `buy`.
+ * **SELL** : Indica que a operação é de **venda**. Valor default `sell`.
+ * **NEW_FOLDER_NAME** : Indica o nome da pasta onde serão salvos o resultado das operações. Valor default `Results`.
+ * **MIN_VALUE** : Indica o valor mínimo da operação para cobrança de imposto, se o valor for maior ou igual ao valor parametrizado, um valor de imposto deverá ser pago. Valor default `20000`.
+ * **IMPOSTO_PERCENT** : Indica o percentual do imposto a ser pago. Valor default `20`.
+
+> **Warning**: *Alterar esses valores pode implicar na execução do cálculo.*
+</br>
+
+<div id='entrada'/>
+
+## Dados de Entrada
+ * O arquivo de entrada deve estar no formato `.json`.
+ * O valor de entrada a ser inserida na solução **deve** ser o caminho raiz do arquivo. Ex.: Se o arquivo a ser consumido é o `C:\Documents\Json\entrada.json`, você deverá inserir apenas o caminho `C:\Documents\Json`, a solução irá consumir todos os arquivos presentes neste diretório.
+ * Assume-se que todos os arquivos seguirão o formato de input correto (você pode encontrar um [exemplo](https://github.com/oliviahamada/ChallengeCase/blob/master/ChallengeCase/Helper/json/exemple.json) dentro da pasta `/Helper/json`).
+
+> **Warning**: *Recomendo utilizar apenas 3 arquivos para consumo.*
+</br>
+
+<div id='saida'/>
+
+## Dados de Saída
+ * A solução irá armazenar o arquivo de saída dentro da pasta configurada no parâmentro `NEW_FOLDER_NAME` (para mais detalhes, clique [aqui](#parametros)). Não será necessário criar ou deletar a pasta, a solução é responsável por isso.
+</br>
+
+<div id='build_test'/>
+
+## Build e Testes
+
+A solução foi desenvolvida em .net6.0 usando C#. Deve-se executar o projeto ChallengeCase. Para os testes, executar o projeto ChallengeCaseTests.
+
+
+<div id='about_me'/>
+
+## Sobre Mim
+
+
+###### Nome: *
