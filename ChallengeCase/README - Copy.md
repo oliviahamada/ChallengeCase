@@ -25,10 +25,12 @@ Esta solução visa calcular o imposto a ser pago sobre lucros ou prejuízos de ope
 	- O arquivo de entrada deve estar no formato `.json`.
 	- O valor de entrada a ser inserida na solução **deve** ser o caminho raiz do arquivo. Ex.: Se o arquivo a ser consumido é o `C:\Documents\Json\entrada.json`, você deverá inserir apenas o caminho `C:\Documents\Json`, a solução irá consumir todos os arquivos presentes neste diretório.
 	- Assume-se que todos os arquivos seguirão o formato de input correto (você pode encontrar um [exemplo](https://github.com/oliviahamada/ChallengeCase/blob/master/ChallengeCase/Helper/json/exemple.json) dentro da pasta Helper/json).
- </br>
+
+
  * **Arquivos de saída**:
 	- A solução irá armazenar o arquivo de saída dentro da pasta configurada no parâmentro `NEW_FOLDER_NAME` (para mais detalhes, clique [aqui](#parametros)). Não será necessário criar ou deletar a pasta, a solução é responsável por isso.
- </br>
+
+
 *Recomendo utilizar apenas 3 arquivos para consumo.*
 
 
