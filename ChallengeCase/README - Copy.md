@@ -30,7 +30,7 @@ Para a solução, foram utilizados os seguintes parâmetros:
  * **MIN_VALUE** : Indica o valor mínimo da operação para cobrança de imposto, se o valor for maior ou igual ao valor parametrizado, um valor de imposto deverá ser pago. Valor default `20000`.
  * **IMPOSTO_PERCENT** : Indica o percentual do imposto a ser pago. Valor default `20`.
 
-> **Warning**: Alterar esses valores pode implicar na execução do cálculo. 
+> **Warning**: *Alterar esses valores pode implicar na execução do cálculo.*
 
 
 <div id='entrada'/>
@@ -51,6 +51,7 @@ Para a solução, foram utilizados os seguintes parâmetros:
 <div id='build_test'/>
 
 ## Build e Testes
+
 A solução foi desenvolvida em .net6.0 usando C#. Deve-se executar o projeto ChallengeCase. Para os testes, executar o projeto ChallengeCaseTests.
 
 
