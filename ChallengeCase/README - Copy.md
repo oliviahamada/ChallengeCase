@@ -29,8 +29,7 @@ Para a solução, foram utilizados os seguintes parâmetros:
  * **NEW_FOLDER_NAME** : Indica o nome da pasta onde serão salvos o resultado das operações. Valor default `Results`.
  * **MIN_VALUE** : Indica o valor mínimo da operação para cobrança de imposto, se o valor for maior ou igual ao valor parametrizado, um valor de imposto deverá ser pago. Valor default `20000`.
  * **IMPOSTO_PERCENT** : Indica o percentual do imposto a ser pago. Valor default `20`.
- </br>
- </br>
+
 > **Warning**: Alterar esses valores pode implicar na execução do cálculo. 
 
 
